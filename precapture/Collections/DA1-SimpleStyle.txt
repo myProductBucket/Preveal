@@ -1,0 +1,82 @@
+{
+  "file_name" : "DA1-SimpleStyle.txt",
+  "createdBy" : " ",
+  "price4" : " ",
+  "price4Description" : "Standout",
+  "initialRotation" : "0",
+  "layout" : [
+    {
+      "x" : "0",
+      "type" : "canvas",
+      "y" : "0",
+      "class" : "CollectionImage",
+      "width" : "20",
+      "height" : "16",
+      "use_border" : "0"
+    },
+    {
+      "x" : "0",
+      "type" : "canvas",
+      "y" : "17.7826892556190911626254491745645166181",
+      "class" : "CollectionImage",
+      "width" : "20",
+      "height" : "16",
+      "use_border" : "0"
+    },
+    {
+      "x" : "22.5170542148468488597354742603194187852",
+      "type" : "canvas",
+      "y" : "0",
+      "class" : "CollectionImage",
+      "width" : "20",
+      "height" : "16",
+      "use_border" : "0"
+    },
+    {
+      "x" : "22.5247397237841821393255689544483877163",
+      "type" : "canvas",
+      "y" : "17.7826892556190911626254491745645166181",
+      "class" : "CollectionImage",
+      "width" : "20",
+      "height" : "16",
+      "use_border" : "0"
+    },
+    {
+      "x" : "44.856283738803795598779790353948802973",
+      "type" : "canvas",
+      "y" : "0",
+      "class" : "CollectionImage",
+      "width" : "20",
+      "height" : "16",
+      "use_border" : "0"
+    },
+    {
+      "x" : "44.880120502276753886626133631043780036",
+      "type" : "canvas",
+      "y" : "17.7826892556190911626254491745645166181",
+      "class" : "CollectionImage",
+      "width" : "20",
+      "height" : "16",
+      "use_border" : "0"
+    }
+  ],
+  "name" : "DA1 - Simple Style Canvas Gallery",
+  "order" : "10",
+  "type" : "collection",
+  "_id" : "C37995EC-5E47-4D65-B39E-CD3EB1E2711C_1374607549.798045.txt",
+  "price3Description" : "Acrylic",
+  "show" : "1",
+  "priceDescription" : "Canvas",
+  "free" : "YES",
+  "price2Description" : "Metal",
+  "groupName" : "com.chrisandadriennescott.preveal.dacollectiononenew",
+  "price" : "0.00",
+  "price3" : " ",
+  "in_app_price" : "0",
+  "studioName" : " ",
+  "isFavorite" : "0",
+  "purchased" : "NO",
+  "description" : "The Simple Style Canvas Gallery from Design Aglow's Inspire Guide: Collection One",
+  "price2" : " ",
+  "studioUrl" : " "
+}

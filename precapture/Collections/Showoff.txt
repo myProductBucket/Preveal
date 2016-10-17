@@ -1,0 +1,59 @@
+{
+    "file_name": "Showoff.txt",
+    "name": "The Showoff Collection",
+    "description": "A great template to show off a family of four.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 13,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "preveal",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "10",
+            "height": "20",
+            "type": "canvas"
+        },              
+{
+            "class": "CollectionImage",
+            "x" : "12.0",
+            "y" : "0.0",
+            "width": "10",
+            "height": "20",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "24.0",
+            "y" : "0.0",
+            "width": "30",
+            "height": "20",
+            "type": "canvas"
+        },            
+
+{
+            "class": "CollectionImage",
+            "x" : "56.0",
+            "y" : "0.0",
+            "width": "10",
+            "height": "20",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "68.0",
+            "y" : "0.0",
+            "width": "10",
+            "height": "20",
+            "type": "canvas"
+        }
+       ]
+}

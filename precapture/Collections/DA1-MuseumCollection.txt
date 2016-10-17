@@ -1,0 +1,168 @@
+{
+  "price4" : " ",
+  "initialRotation" : "0",
+  "price4Description" : "Standout",
+  "layout" : [
+    {
+      "x" : "0",
+      "type" : "canvas",
+      "y" : "0",
+      "class" : "CollectionImage",
+      "width" : "12",
+      "height" : "12",
+      "use_border" : "0"
+    },
+    {
+      "x" : "13.7533608739991191220914918154547837061",
+      "type" : "canvas",
+      "y" : "0",
+      "class" : "CollectionImage",
+      "width" : "12",
+      "height" : "12",
+      "use_border" : "0"
+    },
+    {
+      "x" : "0",
+      "type" : "canvas",
+      "y" : "14.4161734462400405255657805776453756919",
+      "class" : "CollectionImage",
+      "width" : "12",
+      "height" : "12",
+      "use_border" : "0"
+    },
+    {
+      "x" : "13.7533608739991191220914918154547837061",
+      "type" : "canvas",
+      "y" : "14.4161734462400405255657805776453756919",
+      "class" : "CollectionImage",
+      "width" : "12",
+      "height" : "12",
+      "use_border" : "0"
+    },
+    {
+      "x" : "0",
+      "type" : "canvas",
+      "y" : "28.8323468924800810511315611552907513839",
+      "class" : "CollectionImage",
+      "width" : "12",
+      "height" : "12",
+      "use_border" : "0"
+    },
+    {
+      "x" : "13.9190640170593494729600640060024317025",
+      "type" : "canvas",
+      "y" : "28.8323468924800810511315611552907513839",
+      "class" : "CollectionImage",
+      "width" : "12",
+      "height" : "12",
+      "use_border" : "0"
+    },
+    {
+      "x" : "0",
+      "type" : "canvas",
+      "y" : "43.248520338720121576697341732936127075",
+      "class" : "CollectionImage",
+      "width" : "12",
+      "height" : "12",
+      "use_border" : "0"
+    },
+    {
+      "x" : "13.9190640170593494729600640060024317025",
+      "type" : "canvas",
+      "y" : "43.248520338720121576697341732936127075",
+      "class" : "CollectionImage",
+      "width" : "12",
+      "height" : "12",
+      "use_border" : "0"
+    },
+    {
+      "x" : "27.7387101251579941809274055434088459123",
+      "type" : "canvas",
+      "y" : "0",
+      "class" : "CollectionImage",
+      "width" : "12",
+      "height" : "12",
+      "use_border" : "0"
+    },
+    {
+      "x" : "27.821561696688109356361691638682669905",
+      "type" : "canvas",
+      "y" : "14.4161734462400405255657805776453756919",
+      "class" : "CollectionImage",
+      "width" : "12",
+      "height" : "12",
+      "use_border" : "0"
+    },
+    {
+      "x" : "27.7387101251579941809274055434088459123",
+      "type" : "canvas",
+      "y" : "28.8323468924800810511315611552907513839",
+      "class" : "CollectionImage",
+      "width" : "12",
+      "height" : "12",
+      "use_border" : "0"
+    },
+    {
+      "x" : "27.7387101251579941809274055434088459123",
+      "type" : "canvas",
+      "y" : "43.248520338720121576697341732936127075",
+      "class" : "CollectionImage",
+      "width" : "12",
+      "height" : "12",
+      "use_border" : "0"
+    },
+    {
+      "x" : "41.956040296835187466141952098113614709",
+      "type" : "canvas",
+      "y" : "43.248520338720121576697341732936127075",
+      "class" : "CollectionImage",
+      "width" : "12",
+      "height" : "12",
+      "use_border" : "0"
+    },
+    {
+      "x" : "42.204595011425532992444810383935086687",
+      "type" : "canvas",
+      "y" : "14.4161734462400405255657805776453756919",
+      "class" : "CollectionImage",
+      "width" : "12",
+      "height" : "12",
+      "use_border" : "0"
+    },
+    {
+      "x" : "42.204595011425532992444810383935086687",
+      "type" : "canvas",
+      "y" : "28.8323468924800810511315611552907513839",
+      "class" : "CollectionImage",
+      "width" : "12",
+      "height" : "12",
+      "use_border" : "0"
+    },
+    {
+      "x" : "42.28744658295564816787909647920891068",
+      "type" : "canvas",
+      "y" : "0",
+      "class" : "CollectionImage",
+      "width" : "12",
+      "height" : "12",
+      "use_border" : "0"
+    }
+  ],
+  "name" : "DA - Museum Collection",
+  "order" : "0",
+  "type" : "collection",
+  "price3Description" : "Acrylic",
+  "show" : "1",
+  "priceDescription" : "Canvas",
+  "free" : "YES",
+  "price2Description" : "Metal",
+  "groupName" : "com.chrisandadriennescott.preveal.dacollectiononenew",
+  "price" : "0.00",
+  "price3" : " ",
+  "in_app_price" : "0",
+  "isFavorite" : "0",
+  "purchased" : "NO",
+  "description" : "The Museum Collection from The Design Aglow Inspire Guide: Collection 1",
+  "price2" : " ",
+  "file_name" : "DA1-MuseumCollection.txt"
+}

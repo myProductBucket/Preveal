@@ -1,0 +1,35 @@
+{
+    "file_name": "60x40Framed.txt",
+    "name": "Framed 40x60",
+    "description": "A single framed 40x60 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 540,
+    "show" : "1",
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "groupName" : "singlesFramed",
+    "layout":[
+        {
+            "class": "CollectionFramedImage",
+            "width": "40",
+            "height": "60",
+            "x": "3",
+            "y": "3",
+            "frameWidth": "46",
+            "frameHeight": "66",
+            "frameX": "0",
+            "frameY": "0",
+            "frameImageName": "frame-60x40.png",
+            "type": "frame"
+        }
+    ]
+}

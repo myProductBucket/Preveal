@@ -1,0 +1,58 @@
+{
+    "file_name": "BP_Timeless.txt",
+    "name": "Bay Photo - Timeless",
+    "description": "A Bay Photo Original Collection",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 0,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "bayphoto",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "11.5",
+            "height": "11.5",
+            "type": "canvas"
+        },              
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "12.5",
+            "width": "11.5",
+            "height": "11.5",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "12.5",
+            "y" : "0.0",
+            "width": "20",
+            "height": "24",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "33.5",
+            "y" : "0.0",
+            "width": "11.5",
+            "height": "11.5",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "33.5",
+            "y" : "12.5",
+            "width": "11.5",
+            "height": "11.5",
+            "type": "canvas"
+        },            
+       ],
+}

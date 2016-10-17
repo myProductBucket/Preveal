@@ -1,0 +1,50 @@
+{
+    "file_name": "BP_FourSquare16.txt",
+    "name": "Bay Photo - Four Square 16x16",
+    "description": "A Bay Photo Original Collection",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 0,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "bayphoto",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "16",
+            "height": "16",
+            "type": "canvas"
+        },            
+        {
+            "class": "CollectionImage",
+            "x" : "17.0",
+            "y" : "0.0",
+            "width": "16",
+            "height": "16",
+            "type": "canvas"
+        },         
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "17.0",
+            "width": "16",
+            "height": "16",
+            "type": "canvas"
+        },          
+        {
+            "class": "CollectionImage",
+            "x" : "17.0",
+            "y" : "17.0",
+            "width": "16",
+            "height": "16",
+            "type": "canvas"
+        }      
+    ]
+}

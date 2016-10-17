@@ -1,0 +1,42 @@
+{
+    "file_name": "0009.txt",
+    "name": "The Decadent Collection",
+    "description": "This single image size will show off your favorite image with bold, cinematic flair.",
+    "purchased": "NO",
+    "free": "NO",
+    "order": 7,
+    "type": "collection",
+    "in_app_price": "0.99",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "preveal",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "width": "24",
+            "height": "12",
+            "x": "0",
+            "y": "0",
+            "type": "canvas",
+        },
+        {
+            "class": "CollectionImage",
+            "width": "11",
+            "height": "11",
+            "x": "0",
+            "y": "14",
+            "type": "canvas",
+        },
+        {
+            "class": "CollectionImage",
+            "width": "11",
+            "height": "11",
+            "x": "13",
+            "y": "14",
+            "type": "canvas",
+        }
+    ]
+}

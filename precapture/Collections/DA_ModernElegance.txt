@@ -1,0 +1,62 @@
+{
+    "file_name": "DA_ModernElegance.txt",
+    "name": "Modern Elegance",
+    "description": "A Premium Template from Design Aglow",
+    "purchased": "NO",
+    "free": "NO",
+    "order": "190",
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "initialRotation" : 0.0,
+    "groupName" : "com.chrisandadriennescott.preveal.inspireguide.canvas",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "16",
+            "height": "20",
+            "type": "canvas"
+        }, 
+{
+            "class": "CollectionImage",
+            "x" : "16.0",
+            "y" : "0.0",
+            "width": "20",
+            "height": "20",
+            "type": "canvas"
+        }, 
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "20.0",
+            "width": "20",
+            "height": "10",
+            "type": "canvas"
+        }, 
+{
+            "class": "CollectionImage",
+            "x" : "20.0",
+            "y" : "20.0",
+            "width": "8",
+            "height": "10",
+            "type": "canvas"
+        },      
+{
+            "class": "CollectionImage",
+            "x" : "28.0",
+            "y" : "20.0",
+            "width": "8",
+            "height": "10",
+            "type": "canvas"
+        },            
+ ],
+}

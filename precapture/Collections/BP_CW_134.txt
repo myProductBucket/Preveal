@@ -1,0 +1,151 @@
+{
+    "file_name": "BP_CW_134.txt",
+    "name": "Bay Photo CollageWall - 134",
+    "description": "A Bay Photo CollageWall",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 230,
+    "show" : "1",
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : "0.00",
+    "price3" : "0.00",
+    "price4" : "0.00",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "groupName" : "bayphoto",
+    "initialRotation" : 0.0,
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "11",
+            "height": "5",
+            "type": "canvas"
+        },  
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "6.0",
+            "width": "5",
+            "height": "5",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "12.0",
+            "width": "5",
+            "height": "5",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "18.0",
+            "width": "11",
+            "height": "5",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "6.0",
+            "y" : "6.0",
+            "width": "11",
+            "height": "11",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "12.0",
+            "y" : "0.0",
+            "width": "5",
+            "height": "5",
+            "type": "canvas"
+        },          
+{
+            "class": "CollectionImage",
+            "x" : "12.0",
+            "y" : "18.0",
+            "width": "5",
+            "height": "5",
+            "type": "canvas"
+        },              
+{
+            "class": "CollectionImage",
+            "x" : "18.0",
+            "y" : "0.0",
+            "width": "17",
+            "height": "11",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "18.0",
+            "y" : "12.0",
+            "width": "17",
+            "height": "11",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "36.0",
+            "y" : "0.0",
+            "width": "5",
+            "height": "5",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "36.0",
+            "y" : "6.0",
+            "width": "11",
+            "height": "11",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "36.0",
+            "y" : "18.0",
+            "width": "5",
+            "height": "5",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "42.0",
+            "y" : "0.0",
+            "width": "11",
+            "height": "5",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "42.0",
+            "y" : "18.0",
+            "width": "11",
+            "height": "5",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "48.0",
+            "y" : "6.0",
+            "width": "5",
+            "height": "5",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "48.0",
+            "y" : "12.0",
+            "width": "5",
+            "height": "5",
+            "type": "canvas"
+        },            
+       ],
+}

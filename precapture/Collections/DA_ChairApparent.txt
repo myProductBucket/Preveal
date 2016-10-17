@@ -1,0 +1,54 @@
+{
+    "file_name": "DA_ChairApparent.txt",
+    "name": "Chair Apparent",
+    "description": "A Premium Template from Design Aglow",
+    "purchased": "NO",
+    "free": "NO",
+    "order": "50",
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "initialRotation" : 0.0,
+    "groupName" : "com.chrisandadriennescott.preveal.inspireguide.canvas",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "11",
+            "height": "14",
+            "type": "canvas"
+        },  
+        {
+            "class": "CollectionImage",
+            "x" : "11.0",
+            "y" : "0.0",
+            "width": "18",
+            "height": "14",
+            "type": "canvas"
+        },
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "14.0",
+            "width": "18",
+            "height": "14",
+            "type": "canvas"
+        },
+{
+            "class": "CollectionImage",
+            "x" : "18.0",
+            "y" : "14.0",
+            "width": "11",
+            "height": "14",
+            "type": "canvas"
+        },
+       ],
+}

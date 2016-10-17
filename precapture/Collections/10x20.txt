@@ -1,0 +1,29 @@
+{
+    "file_name": "10x20.txt",
+    "name": "10x20",
+    "description": "A Single 10x20 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 40,
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "groupName" : "singles",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x": "0",
+            "y": "0",
+            "width": "10",
+            "height": "20",
+            "type": "canvas"
+        },            
+       ],
+}

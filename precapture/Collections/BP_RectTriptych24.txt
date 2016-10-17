@@ -1,0 +1,42 @@
+{
+    "file_name": "BP_RectTriptych24.txt",
+    "name": "Bay Photo - Rectangular Triptych 24x36",
+    "description": "A Bay Photo Original Collection",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 0,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "bayphoto",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "24",
+            "height": "36",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "25.0",
+            "y" : "0.0",
+            "width": "24",
+            "height": "36",
+            "type": "canvas"
+        },         
+{
+            "class": "CollectionImage",
+            "x" : "50.0",
+            "y" : "0.0",
+            "width": "24",
+            "height": "36",
+            "type": "canvas"
+        },          
+       ],
+}

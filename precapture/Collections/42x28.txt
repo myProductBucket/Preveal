@@ -1,0 +1,30 @@
+{
+    "file_name": "42x28.txt",
+    "name": "28x42",
+    "description": "A single 28x42 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 210,
+    "show" : "1",
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "groupName" : "singles",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "width": "28",
+            "height": "42",
+            "x": "0",
+            "y": "0",
+            "type": "canvas",
+        }
+    ]
+}

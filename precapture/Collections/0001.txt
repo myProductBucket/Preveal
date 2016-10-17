@@ -1,0 +1,60 @@
+{
+    "file_name": "0001.txt",
+    "name": "The Bold Collection",
+    "description": "Boasting an overall footprint of 52x30, this 5-piece collection makes a bold statement over a couch or on a large wall.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 1,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "preveal",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x": "0",
+            "y": "0",
+            "width": "14",
+            "height": "14",
+            "type": "canvas"
+        },            
+        {
+            "class": "CollectionImage",
+            "x" : "16.0",
+            "y" : "0.0",
+            "width": "20",
+            "height": "30",
+            "type": "canvas"
+        },
+        {
+            "class": "CollectionImage",
+            "x" : "38.0",
+            "y" : "0.0",
+            "width": "14",
+            "height": "14",
+            "type": "canvas"
+        },
+
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "16.0",
+            "width": "14",
+            "height": "14",
+            "type": "canvas"
+        },
+
+        {
+            "class": "CollectionImage",
+            "x" : "38.0",
+            "y" : "16.0",
+            "width": "14",
+            "height": "14",
+            "type": "canvas"
+        }
+    ],
+}

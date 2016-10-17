@@ -1,0 +1,86 @@
+{
+    "file_name": "DA_Diamonds.txt",
+    "name": "Diamonds are a Girl's Best Friend",
+    "description": "A Premium Template from Design Aglow",
+    "purchased": "NO",
+    "free": "NO",
+    "order": "260",
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "show" : "1",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "initialRotation" : "0",
+    "groupName" : "com.chrisandadriennescott.preveal.inspireguide.canvas",
+   "layout" : [
+    {
+      "x" : "0",
+      "type" : "canvas",
+      "y" : "0",
+      "class" : "CollectionImageDiamondCanvas",
+      "width" : "33.9411254969543",
+      "height" : "33.9411254969543",
+      "use_border" : "0"
+    },
+    {
+      "x" : "16.9705627484771",
+      "type" : "canvas",
+      "y" : "17",
+      "class" : "CollectionImageDiamondCanvas",
+      "width" : "33.9411254969543",
+      "height" : "33.9411254969543",
+      "use_border" : "0"
+    },
+    {
+      "x" : "33.9411254969543",
+      "type" : "canvas",
+      "y" : "0",
+      "class" : "CollectionImageDiamondCanvas",
+      "width" : "33.9411254969543",
+      "height" : "33.9411254969543",
+      "use_border" : "0"
+    },
+    {
+      "x" : "50.9116882454314",
+      "type" : "canvas",
+      "y" : "17",
+      "class" : "CollectionImageDiamondCanvas",
+      "width" : "33.9411254969543",
+      "height" : "33.9411254969543",
+      "use_border" : "0"
+    },
+    {
+      "x" : "67.8822509939085",
+      "type" : "canvas",
+      "y" : "0",
+      "class" : "CollectionImageDiamondCanvas",
+      "width" : "33.9411254969543",
+      "height" : "33.9411254969543",
+      "use_border" : "0"
+    },
+    {
+      "x" : "84.8528137423857",
+      "type" : "canvas",
+      "y" : "17",
+      "class" : "CollectionImageDiamondCanvas",
+      "width" : "33.9411254969543",
+      "height" : "33.9411254969543",
+      "use_border" : "0"
+    },
+    {
+      "x" : "101.823376490863",
+      "type" : "canvas",
+      "y" : "0",
+      "class" : "CollectionImageDiamondCanvas",
+      "width" : "33.9411254969543",
+      "height" : "33.9411254969543",
+      "use_border" : "0"
+    }
+  ]
+}

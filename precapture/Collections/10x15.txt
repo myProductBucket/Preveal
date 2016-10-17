@@ -1,0 +1,30 @@
+{
+    "file_name": "10x15.txt",
+    "name": "10x15",
+    "description": "A single 10x15 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 31,
+    "show" : "1",
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "groupName" : "singles",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "width": "10",
+            "height": "15",
+            "x": "0",
+            "y": "0",
+            "type": "canvas",
+        }
+    ]
+}

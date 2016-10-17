@@ -1,0 +1,79 @@
+{
+    "file_name": "Request50.txt",
+    "name": "Requested Template 50",
+    "description": "A Requested Template",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 500,
+    "show" : "1",
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : "0.00",
+    "price3" : "0.00",
+    "price4" : "0.00",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "groupName" : "preveal",
+    "initialRotation" : 0.0,
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "5.0",
+            "width": "16",
+            "height": "11",
+            "type": "canvas"
+        },          
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "17.0",
+            "width": "16",
+            "height": "11",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "17.0",
+            "y" : "0.0",
+            "width": "23",
+            "height": "16",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "17.0",
+            "y" : "17.0",
+            "width": "11",
+            "height": "16",
+            "type": "canvas"
+        },            
+ {
+            "class": "CollectionImage",
+            "x" : "29.0",
+            "y" : "17.0",
+            "width": "11",
+            "height": "16",
+            "type": "canvas"
+        },    
+ {
+            "class": "CollectionImage",
+            "x" : "41.0",
+            "y" : "5.0",
+            "width": "16",
+            "height": "11",
+            "type": "canvas"
+        },    
+ {
+            "class": "CollectionImage",
+            "x" : "41.0",
+            "y" : "17.0",
+            "width": "16",
+            "height": "11",
+            "type": "canvas"
+        },    
+        ],
+}

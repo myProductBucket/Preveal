@@ -1,0 +1,31 @@
+{
+    "file_name": "0019.txt",
+    "name": "Framed 24x36",
+    "description": "A single framed 24x36 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 480,
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "singles",
+    "layout":[
+        {
+            "class": "CollectionFramedImage",
+            "width": "24",
+            "height": "36",
+            "x": "3",
+            "y": "3",
+            "frameWidth": "30",
+            "frameHeight": "42",
+            "frameX": "0",
+            "frameY": "0",
+            "frameImageName": "frame-36x24.png",
+            "type": "frame",
+        }
+    ],
+}

@@ -1,0 +1,30 @@
+{
+    "file_name": "24x24.txt",
+    "name": "24x24",
+    "description": "A single 24x24 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 180,
+    "show" : "1",
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "groupName" : "singles",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "width": "24",
+            "height": "24",
+            "x": "0",
+            "y": "0",
+            "type": "canvas",
+        }
+    ]
+}

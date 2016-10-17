@@ -1,0 +1,55 @@
+{
+    "file_name": "DA_Spaced_FrenchQuartet.txt",
+    "name": "French Quartet - Spaced",
+    "description": "A Premium Template from Design Aglow",
+    "purchased": "NO",
+    "free": "NO",
+    "show" : "1",
+    "order": "480",
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "initialRotation" : 0.0,
+    "groupName" : "com.chrisandadriennescott.preveal.inspireguide.canvas",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "16",
+            "height": "20",
+            "type": "canvas"
+        }, 
+ {
+            "class": "CollectionImage",
+            "x" : "18.0",
+            "y" : "0.0",
+            "width": "16",
+            "height": "20",
+            "type": "canvas"
+        }, 
+ {
+            "class": "CollectionImage",
+            "x" : "36.0",
+            "y" : "0.0",
+            "width": "16",
+            "height": "20",
+            "type": "canvas"
+        }, 
+ {
+            "class": "CollectionImage",
+            "x" : "54.0",
+            "y" : "0.0",
+            "width": "16",
+            "height": "20",
+            "type": "canvas"
+        }, 
+ ],
+}

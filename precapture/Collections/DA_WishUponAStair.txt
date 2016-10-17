@@ -1,0 +1,79 @@
+{
+    "file_name": "DA_WishUponAStair.txt",
+    "name": "Wish Upon a Stair",
+    "description": "A Premium Template from Design Aglow",
+    "purchased": "NO",
+    "free": "NO",
+    "order": "230",
+    "show" : "1",
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "initialRotation" : 0.0,
+    "groupName" : "com.chrisandadriennescott.preveal.inspireguide.canvas",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "11",
+            "height": "14",
+            "type": "canvas"
+        }, 
+ {
+            "class": "CollectionImage",
+            "x" : "11.0",
+            "y" : "0.0",
+            "width": "10",
+            "height": "10",
+            "type": "canvas"
+        }, 
+ {
+            "class": "CollectionImage",
+            "x" : "11.0",
+            "y" : "10.0",
+            "width": "16",
+            "height": "20",
+            "type": "canvas"
+        }, 
+ {
+            "class": "CollectionImage",
+            "x" : "27.0",
+            "y" : "10.0",
+            "width": "8",
+            "height": "10",
+            "type": "canvas"
+        },
+{
+            "class": "CollectionImage",
+            "x" : "27.0",
+            "y" : "20.0",
+            "width": "20",
+            "height": "10",
+            "type": "canvas"
+        }, 
+ {
+            "class": "CollectionImage",
+            "x" : "33.0",
+            "y" : "30.0",
+            "width": "11",
+            "height": "14",
+            "type": "canvas"
+        }, 
+ {
+            "class": "CollectionImage",
+            "x" : "44.0",
+            "y" : "30.0",
+            "width": "10",
+            "height": "10",
+            "type": "canvas"
+        }, 
+  ],
+}

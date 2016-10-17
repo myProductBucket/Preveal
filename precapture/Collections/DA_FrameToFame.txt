@@ -1,0 +1,86 @@
+{
+    "file_name": "DA_FrameToFame.txt",
+    "name": "Frame to Fame",
+    "description": "A Premium Template from Design Aglow",
+    "purchased": "NO",
+    "free": "NO",
+    "order": "120",
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "initialRotation" : 0.0,
+    "groupName" : "com.chrisandadriennescott.preveal.inspireguide.canvas",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "10",
+            "height": "8",
+            "type": "canvas"
+        },  
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "8.0",
+            "width": "10",
+            "height": "10",
+            "type": "canvas"
+        }, 
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "18.0",
+            "width": "10",
+            "height": "8",
+            "type": "canvas"
+        }, 
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "26.0",
+            "width": "10",
+            "height": "10",
+            "type": "canvas"
+        }, 
+{
+            "class": "CollectionImage",
+            "x" : "35.0",
+            "y" : "0.0",
+            "width": "10",
+            "height": "8",
+            "type": "canvas"
+        }, 
+{
+            "class": "CollectionImage",
+            "x" : "35.0",
+            "y" : "8.0",
+            "width": "10",
+            "height": "10",
+            "type": "canvas"
+        }, 
+{
+            "class": "CollectionImage",
+            "x" : "35.0",
+            "y" : "18.0",
+            "width": "10",
+            "height": "8",
+            "type": "canvas"
+        }, 
+{
+            "class": "CollectionImage",
+            "x" : "35.0",
+            "y" : "26.0",
+            "width": "10",
+            "height": "10",
+            "type": "canvas"
+        }, 
+       ],
+}

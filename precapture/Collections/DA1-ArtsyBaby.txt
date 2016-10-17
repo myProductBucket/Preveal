@@ -1,0 +1,51 @@
+{
+  "price4" : " ",
+  "initialRotation" : "0",
+  "price4Description" : "Standout",
+  "layout" : [
+    {
+      "x" : "0",
+      "type" : "canvas",
+      "y" : "0",
+      "class" : "CollectionImage",
+      "width" : "30",
+      "height" : "24",
+      "use_border" : "0"
+    },
+    {
+      "x" : "34.040755036082441854400773337994269718",
+      "type" : "canvas",
+      "y" : "0",
+      "class" : "CollectionImage",
+      "width" : "30",
+      "height" : "24",
+      "use_border" : "0"
+    },
+    {
+      "x" : "68.415237791815661969355978343890569485",
+      "type" : "canvas",
+      "y" : "0",
+      "class" : "CollectionImage",
+      "width" : "30",
+      "height" : "24",
+      "use_border" : "0"
+    }
+  ],
+  "name" : "DA - Artsy Baby",
+  "order" : "0",
+  "type" : "collection",
+  "price3Description" : "Acrylic",
+  "show" : "1",
+  "priceDescription" : "Canvas",
+  "free" : "YES",
+  "price2Description" : "Metal",
+  "groupName" : "com.chrisandadriennescott.preveal.dacollectiononenew",
+  "price" : "0.00",
+  "price3" : " ",
+  "in_app_price" : "0",
+  "isFavorite" : "0",
+  "purchased" : "NO",
+  "description" : "Artsy Baby from the Design Aglow Inspire Guide: Collection 1.",
+  "price2" : " ",
+  "file_name" : "DA1-ArtsyBaby.txt"
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "Lupine.txt",
+    "name": "Lupine Lens Collection",
+    "description": "A requested template from Lupine Lens Photography.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 11,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "preveal",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "16",
+            "height": "16",
+            "type": "canvas"
+        },              
+{
+            "class": "CollectionImage",
+            "x" : "18.0",
+            "y" : "0.0",
+            "width": "20",
+            "height": "16",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "40.0",
+            "y" : "0.0",
+            "width": "16",
+            "height": "16",
+            "type": "canvas"
+        },              
+       ],
+}

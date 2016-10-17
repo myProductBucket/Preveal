@@ -1,0 +1,30 @@
+{
+    "file_name": "16x11.txt",
+    "name": "11x16",
+    "description": "A single 11x16 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 60,
+    "show" : "1",
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "groupName" : "singles",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "width": "11",
+            "height": "16",
+            "x": "0",
+            "y": "0",
+            "type": "canvas",
+        }
+    ]
+}

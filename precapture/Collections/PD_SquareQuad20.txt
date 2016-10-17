@@ -1,0 +1,50 @@
+{
+    "file_name": "PD_SquareQuad20.txt",
+    "name": "ProDPI - Square Quad 20x20",
+    "description": "A ProDPI Collection",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 0,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "prodpi",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "20",
+            "height": "20",
+            "type": "canvas"
+        },            
+        {
+            "class": "CollectionImage",
+            "x" : "22.0",
+            "y" : "0.0",
+            "width": "20",
+            "height": "20",
+            "type": "canvas"
+        },            
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "22.0",
+            "width": "20",
+            "height": "20",
+            "type": "canvas"
+        },          
+        {
+            "class": "CollectionImage",
+            "x" : "22.0",
+            "y" : "22.0",
+            "width": "20",
+            "height": "20",
+            "type": "canvas"
+        },            
+         ],
+}

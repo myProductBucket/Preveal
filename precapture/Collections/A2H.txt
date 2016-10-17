@@ -1,0 +1,42 @@
+{
+    "file_name": "A2H.txt",
+    "name": "Add to Heart Collection",
+    "description": "A requested template from Add to Heart Photography.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 9,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "preveal",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "16",
+            "height": "20",
+            "type": "canvas"
+        },              
+{
+            "class": "CollectionImage",
+            "x" : "18.0",
+            "y" : "0.0",
+            "width": "30",
+            "height": "20",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "50.0",
+            "y" : "0.0",
+            "width": "16",
+            "height": "20",
+            "type": "canvas"
+        },              
+       ],
+}

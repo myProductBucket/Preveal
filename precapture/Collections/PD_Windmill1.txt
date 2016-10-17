@@ -1,0 +1,50 @@
+{
+    "file_name": "PD_Windmill1.txt",
+    "name": "ProDPI - Windmill 1",
+    "description": "A ProDPI Collection",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 0,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "prodpi",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "3.0",
+            "width": "14",
+            "height": "11",
+            "type": "canvas"
+        },            
+        {
+            "class": "CollectionImage",
+            "x" : "14.0",
+            "y" : "0.0",
+            "width": "11",
+            "height": "14",
+            "type": "canvas"
+        },            
+        {
+            "class": "CollectionImage",
+            "x" : "3.0",
+            "y" : "14.0",
+            "width": "11",
+            "height": "14",
+            "type": "canvas"
+        },          
+        {
+            "class": "CollectionImage",
+            "x" : "14.0",
+            "y" : "14.0",
+            "width": "14",
+            "height": "11",
+            "type": "canvas"
+        },            
+         ],
+}

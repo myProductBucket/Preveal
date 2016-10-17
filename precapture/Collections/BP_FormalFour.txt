@@ -1,0 +1,50 @@
+{
+    "file_name": "BP_FormalFour.txt",
+    "name": "Bay Photo - Formal Four",
+    "description": "A Bay Photo Original Collection",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 0,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "bayphoto",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "16",
+            "height": "24",
+            "type": "canvas"
+        },              
+{
+            "class": "CollectionImage",
+            "x" : "17.0",
+            "y" : "0.0",
+            "width": "17",
+            "height": "11",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "17.0",
+            "y" : "12.0",
+            "width": "8",
+            "height": "12",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "26.0",
+            "y" : "12.0",
+            "width": "8",
+            "height": "12",
+            "type": "canvas"
+        },            
+       ],
+}

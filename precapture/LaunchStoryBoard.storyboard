@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="NvQ-Ma-EaM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome to Preveal V4-->
+        <scene sceneID="fBI-97-Vl4">
+            <objects>
+                <viewController storyboardIdentifier="LaunchFirstView" title="Welcome to Preveal V4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="lSg-6O-vZR" customClass="WelcomeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mFa-D9-lZj" userLabel="Launch Start">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-small-blue.png" id="jWB-SF-IDS">
+                                <rect key="frame" x="429" y="254" width="166" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Z0p-vU-9JL">
+                                <rect key="frame" x="213" y="393" width="599" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to Preveal V4 
+Click the next button to get started</string>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.12156862745098039" green="0.26666666666666666" blue="0.37254901960784315" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nuiClass" value="Title"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="llo-va-Pyl">
+                                <rect key="frame" x="488" y="563" width="49" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="btn-next-arrow-off.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="z6X-xB-5Ru" kind="push" id="xRF-86-Ja4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="udX-Bo-PUm" userLabel="SmoochMessageButton" customClass="MIBadgeButton">
+                                <rect key="frame" x="960" y="700" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="SmoochMessage"/>
+                                <connections>
+                                    <action selector="smoochMessageButtonTouchUp:" destination="lSg-6O-vZR" eventType="touchUpInside" id="aAo-vJ-C2V"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="66G-7Y-xEw"/>
+                    <connections>
+                        <outlet property="smoochMessageButton" destination="udX-Bo-PUm" id="eOo-56-8uh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hhg-J8-0Xw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="708" y="-82"/>
+        </scene>
+        <!--Community Register View Controller-->
+        <scene sceneID="ZrR-wZ-DPy">
+            <objects>
+                <viewController restorationIdentifier="CommunityRegisterViewController" storyboardIdentifier="CommunityRegisterViewController" id="cTI-AQ-Bgn" customClass="CommunityRegisterViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4rR-ze-vyb">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="L2e-Rr-9ZN" userLabel="Back Button">
+                                <rect key="frame" x="16" y="22" width="49" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="btn-back-arrow-off.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backTouchUp:" destination="cTI-AQ-Bgn" eventType="touchUpInside" id="Lb1-wo-uqh"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-small-blue.png" id="XSa-Ue-Yve">
+                                <rect key="frame" x="429" y="86" width="166" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already have an account?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TwL-yC-pJv">
+                                <rect key="frame" x="399" y="216" width="201" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Your Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="44b-yz-7fi">
+                                <rect key="frame" x="348" y="180" width="329" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="E9t-N7-d3o">
+                                <rect key="frame" x="588" y="212" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <state key="normal" title="Log In">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mZd-JM-axb" kind="push" id="7z9-8B-376"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="email address" minimumFontSize="17" id="RlC-9u-Lwb" userLabel="Email - Field">
+                                <rect key="frame" x="443" y="267" width="172" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                <connections>
+                                    <outlet property="delegate" destination="cTI-AQ-Bgn" id="cWM-5s-h6l"/>
+                                </connections>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="field-email.png" id="JU1-di-Bzi" userLabel="Email - Field Image" customClass="contentDisposition">
+                                <rect key="frame" x="399" y="268" width="226" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" minimumFontSize="17" id="Dx3-gY-cgn" userLabel="Password - Field">
+                                <rect key="frame" x="443" y="313" width="172" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="field-pass.png" id="zM2-Nx-EIO" userLabel="password - Field Image">
+                                <rect key="frame" x="399" y="314" width="226" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password (again)" minimumFontSize="17" id="vXZ-Ok-cLQ" userLabel="Password Two - Field">
+                                <rect key="frame" x="443" y="359" width="172" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="field-pass.png" id="b7m-i5-4AW" userLabel="Password Two - Field Image">
+                                <rect key="frame" x="399" y="360" width="226" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="name" minimumFontSize="17" id="6Ml-S3-Drh" userLabel="Name - Field">
+                                <rect key="frame" x="443" y="405" width="172" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="field-name.png" id="fom-Tu-7MB" userLabel="Name - Field Image">
+                                <rect key="frame" x="399" y="406" width="226" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="studio name" minimumFontSize="17" id="iNR-K1-RNe" userLabel="Studio Name - Field">
+                                <rect key="frame" x="443" y="451" width="172" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="field-studio.png" id="VJk-XI-TCe" userLabel="Studio Name - Field Image">
+                                <rect key="frame" x="399" y="452" width="226" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="url" minimumFontSize="17" id="99i-2z-I2c" userLabel="URL - Field">
+                                <rect key="frame" x="443" y="497" width="172" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="field-url.png" id="6tV-ih-pkn" userLabel="URL - Field Image">
+                                <rect key="frame" x="399" y="498" width="226" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wXA-gD-SMU">
+                                <rect key="frame" x="488" y="644" width="49" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="btn-next-arrow-off.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1jh-Zm-9pb" kind="push" id="kJS-QK-h0n"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qFA-Mc-GRR" userLabel="errorLabel">
+                                <rect key="frame" x="176" y="238" width="669" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KgY-7q-WZ9" userLabel="Save Button">
+                                <rect key="frame" x="439" y="567" width="157" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="btn-save-default.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="btn-save-active.png"/>
+                                <connections>
+                                    <action selector="submitButtonPressedFromLaunchView:" destination="cTI-AQ-Bgn" eventType="touchUpInside" id="18G-SN-Lt1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3kK-co-sFk" userLabel="SmoochMessageButton" customClass="MIBadgeButton">
+                                <rect key="frame" x="960" y="700" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="SmoochMessage"/>
+                                <connections>
+                                    <action selector="smoochMessageTouchUp:" destination="cTI-AQ-Bgn" eventType="touchUpInside" id="b1k-Fd-5up"/>
+                                </connections>
+                            </button>
+                            <view hidden="YES" alpha="0.29999999999999999" contentMode="scaleToFill" id="6Vh-vp-fwu">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" id="kEo-To-pod">
+                                        <rect key="frame" x="494" y="365" width="37" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zVu-8x-6Fr"/>
+                    <connections>
+                        <outlet property="activityView" destination="kEo-To-pod" id="zwU-Hm-I4a"/>
+                        <outlet property="confirmPasswordField" destination="vXZ-Ok-cLQ" id="juf-ny-Tvm"/>
+                        <outlet property="emailField" destination="RlC-9u-Lwb" id="ciu-mx-EQj"/>
+                        <outlet property="errorLabel" destination="qFA-Mc-GRR" id="qEq-O5-7J0"/>
+                        <outlet property="fadedView" destination="6Vh-vp-fwu" id="gkt-Nw-liI"/>
+                        <outlet property="nameField" destination="6Ml-S3-Drh" id="uOp-Ui-a4g"/>
+                        <outlet property="nextButton" destination="wXA-gD-SMU" id="PVc-xG-DMB"/>
+                        <outlet property="passwordField" destination="Dx3-gY-cgn" id="71s-7B-tdy"/>
+                        <outlet property="smoochMessageButton" destination="3kK-co-sFk" id="kcE-5B-O26"/>
+                        <outlet property="studioNameField" destination="iNR-K1-RNe" id="tN2-D2-3FF"/>
+                        <outlet property="studioUrlField" destination="99i-2z-I2c" id="vzf-YT-TLn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Rb-Pj-Mcf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3255" y="-47"/>
+        </scene>
+        <!--Drop Box Registration View Controller-->
+        <scene sceneID="dsc-Md-wwr">
+            <objects>
+                <viewController restorationIdentifier="DropBoxRegistrationViewController" storyboardIdentifier="DropBoxRegistrationViewController" id="1jh-Zm-9pb" customClass="DropBoxRegistrationViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yRQ-tv-FmJ">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ShX-tT-Lcj" userLabel="Back Button">
+                                <rect key="frame" x="16" y="22" width="49" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="btn-back-arrow-off.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backTouchUp:" destination="cTI-AQ-Bgn" eventType="touchUpInside" id="7lZ-Ad-P5Q"/>
+                                    <action selector="backTouchUp:" destination="z6X-xB-5Ru" eventType="touchUpInside" id="JII-8j-yg0"/>
+                                    <action selector="backTouchUp:" destination="1jh-Zm-9pb" eventType="touchUpInside" id="Ug1-6T-Pap"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-small-blue.png" id="APj-AX-a0D">
+                                <rect key="frame" x="429" y="102" width="166" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connect to your Dropbox Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mhM-aY-ZKs">
+                                <rect key="frame" x="348" y="196" width="329" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3Jq-8Z-kZ9">
+                                <rect key="frame" x="488" y="581" width="49" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="btn-next-arrow-off.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="QPl-cf-vRs" kind="push" id="IIf-hL-NNj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RTx-6o-qIy" userLabel="connectDropBox">
+                                <rect key="frame" x="420" y="299" width="185" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="btn-dropbox-connect.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleDropboxConnected:" destination="1jh-Zm-9pb" eventType="touchUpInside" id="vx8-TZ-Udw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kak-XC-aHv" userLabel="discconnect DropBox">
+                                <rect key="frame" x="420" y="299" width="185" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="btn-dropbox-disconnect.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleDropboxConnected:" destination="1jh-Zm-9pb" eventType="touchUpInside" id="ROr-11-H0h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Vcx-WY-Iyi">
+                                <rect key="frame" x="396" y="355" width="233" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="13"/>
+                                <state key="normal" title="I don't want to use Dropbox">
+                                    <color key="titleColor" red="0.12156862745098039" green="0.26666666666666666" blue="0.37254901960784315" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="QPl-cf-vRs" kind="push" id="Z5p-fx-1Yx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="R6u-bs-R4b" userLabel="SmoochMessageButton" customClass="MIBadgeButton">
+                                <rect key="frame" x="960" y="700" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="SmoochMessage"/>
+                                <connections>
+                                    <action selector="smoochMessageTouchUp:" destination="1jh-Zm-9pb" eventType="touchUpInside" id="Hnu-8q-UnL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="a0Y-5D-egB"/>
+                    <connections>
+                        <outlet property="authorizeDropbox" destination="RTx-6o-qIy" id="zMV-In-Opx"/>
+                        <outlet property="deauthorizeDropbox" destination="kak-XC-aHv" id="ol4-x4-a8B"/>
+                        <outlet property="nextButton" destination="3Jq-8Z-kZ9" id="dfj-hK-PZZ"/>
+                        <outlet property="smoochMessageButton" destination="R6u-bs-R4b" id="Kbt-tm-XK3"/>
+                        <outlet property="unuseDropboxButton" destination="Vcx-WY-Iyi" id="QZQ-vJ-5hZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uAu-Yk-OGI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4586" y="105"/>
+        </scene>
+        <!--Measurement Settings View Controller-->
+        <scene sceneID="jxS-Vt-Jet">
+            <objects>
+                <viewController restorationIdentifier="MeasurementSettingsViewController" storyboardIdentifier="MeasurementSettingsViewController" id="QPl-cf-vRs" customClass="MeasurementSettingsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dej-36-mMY">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mPk-op-30M" userLabel="Back Button">
+                                <rect key="frame" x="16" y="22" width="49" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="btn-back-arrow-off.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backTouchUp:" destination="mZd-JM-axb" eventType="touchUpInside" id="0DP-2v-BUK"/>
+                                    <action selector="backTouchUp:" destination="cTI-AQ-Bgn" eventType="touchUpInside" id="JAz-kC-DLn"/>
+                                    <action selector="backTouchUp:" destination="z6X-xB-5Ru" eventType="touchUpInside" id="lEf-CI-Arb"/>
+                                    <action selector="backTouchUp:" destination="QPl-cf-vRs" eventType="touchUpInside" id="sCC-Ud-oJW"/>
+                                    <action selector="backTouchUp:" destination="1jh-Zm-9pb" eventType="touchUpInside" id="xIJ-H2-Zud"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HDl-wa-BU1">
+                                <rect key="frame" x="488" y="613" width="49" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="btn-next-arrow-off.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissLaunchButtonPressed:" destination="QPl-cf-vRs" eventType="touchUpInside" id="ncA-Ll-nQX"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-small-blue.png" id="E0Q-RQ-eWZ">
+                                <rect key="frame" x="429" y="117" width="166" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="letter" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AEd-Dc-bfj">
+                                <rect key="frame" x="391" y="321" width="69" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="inches" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DBZ-2a-Lpp">
+                                <rect key="frame" x="391" y="363" width="69" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="metric" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6av-5p-WI2">
+                                <rect key="frame" x="559" y="363" width="48" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LND-fs-Pwo">
+                                <rect key="frame" x="559" y="321" width="65" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose your Measurement Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VXo-JB-rvj">
+                                <rect key="frame" x="380" y="224" width="265" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your Currency Symbol" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fZO-hP-wPz">
+                                <rect key="frame" x="380" y="449" width="265" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="$" textAlignment="center" minimumFontSize="17" background="field-currency.png" id="fvo-ie-ySg" userLabel="Currency - Field">
+                                <rect key="frame" x="496" y="514" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hZr-Gl-7df" userLabel="letterButton">
+                                <rect key="frame" x="473" y="320" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="radio-unchecked.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="radio-checked.png"/>
+                                <connections>
+                                    <action selector="letterButtonPressed:" destination="QPl-cf-vRs" eventType="touchUpInside" id="54v-QL-9Uh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="i7S-5r-z3Y" userLabel="inchesButton">
+                                <rect key="frame" x="473" y="362" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="radio-unchecked.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="radio-checked.png"/>
+                                <connections>
+                                    <action selector="inchesButtonPressed:" destination="QPl-cf-vRs" eventType="touchUpInside" id="HGp-D8-25C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="JxD-Qi-BmI" userLabel="a4Button">
+                                <rect key="frame" x="521" y="319" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="radio-unchecked.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="radio-checked.png"/>
+                                <connections>
+                                    <action selector="a4ButtonPressed:" destination="QPl-cf-vRs" eventType="touchUpInside" id="SSj-hE-Ybx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3Fb-p0-9PI" userLabel="metricButton">
+                                <rect key="frame" x="521" y="362" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="radio-unchecked.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="radio-checked.png"/>
+                                <connections>
+                                    <action selector="metricButtonPressed:" destination="QPl-cf-vRs" eventType="touchUpInside" id="COr-Jh-EaH"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uI1-Pb-iop" userLabel="saveButton">
+                                <rect key="frame" x="434" y="581" width="157" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="btn-save-default.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveButtonPressed:" destination="QPl-cf-vRs" eventType="touchUpInside" id="1tp-la-Lyb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Jpu-cS-7ZE" userLabel="SmoochMessageButton" customClass="MIBadgeButton">
+                                <rect key="frame" x="960" y="700" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="SmoochMessage"/>
+                                <connections>
+                                    <action selector="smoochMessageTouchUp:" destination="QPl-cf-vRs" eventType="touchUpInside" id="AXS-ce-ry6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6Nv-fM-rwt"/>
+                    <connections>
+                        <outlet property="a4Button" destination="JxD-Qi-BmI" id="fhf-L4-VRL"/>
+                        <outlet property="backButton" destination="mPk-op-30M" id="3g9-XW-haB"/>
+                        <outlet property="currencySymbol" destination="fvo-ie-ySg" id="YIv-gb-ghN"/>
+                        <outlet property="inchesButton" destination="i7S-5r-z3Y" id="csv-fl-IOP"/>
+                        <outlet property="letterButton" destination="hZr-Gl-7df" id="beS-d3-82z"/>
+                        <outlet property="metricButton" destination="3Fb-p0-9PI" id="17X-to-f8b"/>
+                        <outlet property="nextButton" destination="HDl-wa-BU1" id="d3Z-Al-bd7"/>
+                        <outlet property="saveButton" destination="uI1-Pb-iop" id="st3-3p-ILx"/>
+                        <outlet property="smoochMessageButton" destination="Jpu-cS-7ZE" id="g9N-eE-0hy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ABc-TV-5pk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5974" y="129"/>
+        </scene>
+        <!--Launch Navigation View Controller-->
+        <scene sceneID="PQt-D8-N3U">
+            <objects>
+                <navigationController storyboardIdentifier="LaunchNavController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NvQ-Ma-EaM" customClass="LaunchNavigationViewController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qVE-FP-D2Q">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lSg-6O-vZR" kind="relationship" relationship="rootViewController" id="pdn-rr-qke"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8WS-z6-vN6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-552" y="-82"/>
+        </scene>
+        <!--Web Video View Controller-->
+        <scene sceneID="4EK-3R-6HE">
+            <objects>
+                <viewController id="z6X-xB-5Ru" customClass="WebVideoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WgG-yw-4gq">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gqy-oU-UAc" userLabel="Back Button">
+                                <rect key="frame" x="16" y="22" width="49" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="btn-back-arrow-off.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backTouchUp:" destination="z6X-xB-5Ru" eventType="touchUpInside" id="5Hk-e8-PWs"/>
+                                    <action selector="backTouchUp:" destination="cTI-AQ-Bgn" eventType="touchUpInside" id="Lms-oN-F4h"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-small-blue.png" id="4qW-Hp-TMd">
+                                <rect key="frame" x="429" y="102" width="166" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <webView contentMode="scaleToFill" id="3P6-HX-X5r">
+                                <rect key="frame" x="139" y="209" width="747" height="415"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="delegate" destination="z6X-xB-5Ru" id="Oqx-Gf-Rsw"/>
+                                </connections>
+                            </webView>
+                            <view hidden="YES" contentMode="scaleToFill" id="Wve-C0-Eiq">
+                                <rect key="frame" x="139" y="209" width="747" height="415"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1EC-bu-VZn" userLabel="Next Button">
+                                <rect key="frame" x="488" y="642" width="49" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="btn-next-arrow-off.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextButtonPressed:" destination="z6X-xB-5Ru" eventType="touchUpInside" id="aDD-cv-TYH"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" id="vHa-xM-Ryb">
+                                <rect key="frame" x="494" y="365" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HIz-f9-SVr" userLabel="SmoochMessageButton" customClass="MIBadgeButton">
+                                <rect key="frame" x="960" y="700" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="SmoochMessage"/>
+                                <connections>
+                                    <action selector="smoochMessageButtonTouchUp:" destination="z6X-xB-5Ru" eventType="touchUpInside" id="iUI-Lr-tE4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4ch-zf-bR2"/>
+                    <connections>
+                        <outlet property="activityView" destination="vHa-xM-Ryb" id="sgi-nZ-hoG"/>
+                        <outlet property="smoochMessageButton" destination="HIz-f9-SVr" id="0dv-f8-k6J"/>
+                        <outlet property="videoPlayerView" destination="Wve-C0-Eiq" id="YlF-yM-R7N"/>
+                        <outlet property="webView" destination="3P6-HX-X5r" id="ppY-ZG-nal"/>
+                        <segue destination="1jh-Zm-9pb" kind="push" identifier="segueToDropBox" id="anO-nd-lQi"/>
+                        <segue destination="cTI-AQ-Bgn" kind="push" identifier="segueToCommunity" id="9sR-3z-der"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d6g-eN-HCh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2032" y="-22"/>
+        </scene>
+        <!--Community Forgot Password View Controller-->
+        <scene sceneID="JjL-1c-ifc">
+            <objects>
+                <viewController restorationIdentifier="Launch_ForgotViewController" storyboardIdentifier="CommunityForgotPasswordViewController" id="B6d-El-wyk" customClass="CommunityForgotPasswordViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j0s-AJ-8yT">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-small-blue.png" id="f3b-C8-RQQ">
+                                <rect key="frame" x="429" y="86" width="166" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your email address" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AIk-GM-0Db">
+                                <rect key="frame" x="412" y="209" width="201" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="email address" minimumFontSize="17" id="hcr-uh-3LD" userLabel="Email - Field">
+                                <rect key="frame" x="443" y="302" width="172" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                <connections>
+                                    <outlet property="delegate" destination="B6d-El-wyk" id="gLB-zj-LXM"/>
+                                </connections>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="field-email.png" id="Cgs-yo-hbX" userLabel="Email - Field Image" customClass="contentDisposition">
+                                <rect key="frame" x="399" y="303" width="226" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ROd-ga-ZRA" userLabel="errorLabel">
+                                <rect key="frame" x="176" y="258" width="669" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5t4-MK-jsa">
+                                <rect key="frame" x="141" y="424" width="742" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gxo-yz-ml5" userLabel="Send Button">
+                                <rect key="frame" x="433" y="380" width="157" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="btn-send.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendTouchUp:" destination="B6d-El-wyk" eventType="touchUpInside" id="0TW-lr-xoD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nSE-4o-AMe" userLabel="SmoochMessageButton" customClass="MIBadgeButton">
+                                <rect key="frame" x="960" y="700" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="SmoochMessage"/>
+                                <connections>
+                                    <action selector="smoochMessageTouchUp:" destination="B6d-El-wyk" eventType="touchUpInside" id="epA-aL-3In"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="e5I-85-K5V">
+                                <rect key="frame" x="482" y="450" width="60" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                <state key="normal" title="Log in"/>
+                                <connections>
+                                    <action selector="loginTouchUp:" destination="B6d-El-wyk" eventType="touchUpInside" id="JGL-OA-XWQ"/>
+                                </connections>
+                            </button>
+                            <view hidden="YES" alpha="0.30000001192092896" contentMode="scaleToFill" id="Qd2-Kb-7eq">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" id="fX8-yQ-oQj">
+                                        <rect key="frame" x="494" y="301" width="37" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sfD-iq-Otq"/>
+                    <connections>
+                        <outlet property="activityView" destination="fX8-yQ-oQj" id="pj1-sI-I0C"/>
+                        <outlet property="descriptionLabel" destination="AIk-GM-0Db" id="zRS-26-mf0"/>
+                        <outlet property="emailTextField" destination="hcr-uh-3LD" id="yeb-TY-0Vc"/>
+                        <outlet property="errorLabel" destination="ROd-ga-ZRA" id="2d0-40-NSL"/>
+                        <outlet property="fadedView" destination="Qd2-Kb-7eq" id="GrM-lX-AQg"/>
+                        <outlet property="smoochMessageButton" destination="nSE-4o-AMe" id="UbB-C7-hgE"/>
+                        <outlet property="stateLabel" destination="5t4-MK-jsa" id="YSr-K8-eak"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1jn-ud-nPg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5639" y="-1029"/>
+        </scene>
+        <!--Community Login View Controller-->
+        <scene sceneID="kEx-Se-Bvx">
+            <objects>
+                <viewController restorationIdentifier="CommunityLoginViewController_Launch" storyboardIdentifier="CommunityLoginViewController" id="mZd-JM-axb" customClass="CommunityLoginViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oOe-Fa-P5K">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="EZZ-od-vcV" userLabel="Back Button">
+                                <rect key="frame" x="16" y="22" width="49" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="btn-back-arrow-off.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backTouchUp:" destination="1jh-Zm-9pb" eventType="touchUpInside" id="JG9-JC-ndi"/>
+                                    <action selector="backTouchUp:" destination="cTI-AQ-Bgn" eventType="touchUpInside" id="Joz-Jk-0qJ"/>
+                                    <action selector="backTouchUp:" destination="mZd-JM-axb" eventType="touchUpInside" id="K0K-tD-x9L"/>
+                                    <action selector="backTouchUp:" destination="z6X-xB-5Ru" eventType="touchUpInside" id="WNe-tM-m9Q"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-small-blue.png" id="m5n-cc-n3i">
+                                <rect key="frame" x="429" y="86" width="166" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login to the community" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ajz-by-WGU">
+                                <rect key="frame" x="412" y="209" width="201" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="email address" minimumFontSize="17" id="Exn-4h-Iaw" userLabel="Email - Field">
+                                <rect key="frame" x="443" y="267" width="172" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                <connections>
+                                    <outlet property="delegate" destination="mZd-JM-axb" id="eaU-KI-jo1"/>
+                                </connections>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="field-email.png" id="0Ac-KV-HXA" userLabel="Email - Field Image" customClass="contentDisposition">
+                                <rect key="frame" x="399" y="268" width="226" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" minimumFontSize="17" id="5v2-CH-V6y" userLabel="Password - Field">
+                                <rect key="frame" x="443" y="313" width="172" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="field-pass.png" id="ljQ-il-PfR" userLabel="password - Field Image">
+                                <rect key="frame" x="399" y="314" width="226" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="v6e-QP-edT" userLabel="errorLabel">
+                                <rect key="frame" x="176" y="238" width="669" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1sm-Ub-bqT">
+                                <rect key="frame" x="417" y="665" width="186" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <state key="normal" title="Forgot your password? ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="forgotPasswordTouchUp:" destination="mZd-JM-axb" eventType="touchUpInside" id="8Jt-Tn-dfG"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login successful!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2xE-DI-vkn">
+                                <rect key="frame" x="436" y="500" width="153" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mwP-o1-Ai4">
+                                <rect key="frame" x="433" y="380" width="157" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="btn-log-in.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="submitButtonPressed:" destination="mZd-JM-axb" eventType="touchUpInside" id="5LP-cb-h6p"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wvk-ug-4Ej">
+                                <rect key="frame" x="488" y="550" width="49" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="btn-next-arrow-off.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1jh-Zm-9pb" kind="push" id="jox-db-Lo8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hzg-hA-qd7" userLabel="SmoochMessageButton" customClass="MIBadgeButton">
+                                <rect key="frame" x="960" y="700" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="SmoochMessage"/>
+                                <connections>
+                                    <action selector="smoochMessageTouchUp:" destination="mZd-JM-axb" eventType="touchUpInside" id="fUE-3I-1UQ"/>
+                                </connections>
+                            </button>
+                            <view hidden="YES" alpha="0.30000001192092896" contentMode="scaleToFill" id="df3-Wm-KGb">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" id="ilC-ob-vv2">
+                                        <rect key="frame" x="494" y="301" width="37" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0Bm-ua-sH7"/>
+                    <connections>
+                        <outlet property="activityView" destination="ilC-ob-vv2" id="NGU-HQ-UaH"/>
+                        <outlet property="emailField" destination="Exn-4h-Iaw" id="PmJ-DQ-pt9"/>
+                        <outlet property="errorLabel" destination="v6e-QP-edT" id="vhZ-gp-Nz7"/>
+                        <outlet property="fadedView" destination="df3-Wm-KGb" id="3V5-7R-Djz"/>
+                        <outlet property="forgotPasswordButton" destination="1sm-Ub-bqT" id="iIE-Sd-DcK"/>
+                        <outlet property="nextButton" destination="wvk-ug-4Ej" id="asb-kr-l88"/>
+                        <outlet property="passwordField" destination="5v2-CH-V6y" id="LxG-BO-QUI"/>
+                        <outlet property="smoochMessageButton" destination="hzg-hA-qd7" id="k4V-uZ-4Lq"/>
+                        <outlet property="successLabel" destination="2xE-DI-vkn" id="Q1q-rP-v96"/>
+                        <segue destination="B6d-El-wyk" kind="push" identifier="seque_forgotpassword" id="jA4-av-OIG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H9z-0k-bxb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4567" y="-1029"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SmoochMessage" width="52" height="52"/>
+        <image name="btn-back-arrow-off.png" width="98" height="98"/>
+        <image name="btn-dropbox-connect.png" width="370" height="74"/>
+        <image name="btn-dropbox-disconnect.png" width="370" height="74"/>
+        <image name="btn-log-in.png" width="165" height="35"/>
+        <image name="btn-next-arrow-off.png" width="98" height="98"/>
+        <image name="btn-save-active.png" width="314" height="64"/>
+        <image name="btn-save-default.png" width="314" height="64"/>
+        <image name="btn-send.png" width="165" height="35"/>
+        <image name="field-currency.png" width="64" height="60"/>
+        <image name="field-email.png" width="468" height="74"/>
+        <image name="field-name.png" width="468" height="74"/>
+        <image name="field-pass.png" width="468" height="74"/>
+        <image name="field-studio.png" width="468" height="74"/>
+        <image name="field-url.png" width="468" height="74"/>
+        <image name="logo-small-blue.png" width="332" height="198"/>
+        <image name="radio-checked.png" width="44" height="44"/>
+        <image name="radio-unchecked.png" width="44" height="44"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="IIf-hL-NNj"/>
+        <segue reference="jox-db-Lo8"/>
+    </inferredMetricsTieBreakers>
+</document>

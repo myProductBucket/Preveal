@@ -1,0 +1,35 @@
+{
+    "file_name": "10x15Framed.txt",
+    "name": "Framed 10x15",
+    "description": "A single framed 10x15 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 311,
+    "show" : "1",
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "groupName" : "singlesFramed",
+    "layout":[
+        {
+            "class": "CollectionFramedImage",
+            "width": "10",
+            "height": "15",
+            "x": "3",
+            "y": "3",
+            "frameWidth": "16",
+            "frameHeight": "21",
+            "frameX": "0",
+            "frameY": "0",
+            "frameImageName": "frame-10x15.png",
+            "type": "frame",
+        }
+    ]
+}

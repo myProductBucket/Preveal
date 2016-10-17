@@ -1,0 +1,60 @@
+{
+  "price4" : " ",
+  "initialRotation" : "0",
+  "price4Description" : "Standout",
+  "layout" : [
+    {
+      "x" : "0",
+      "type" : "canvas",
+      "y" : "0",
+      "class" : "CollectionImage",
+      "width" : "20",
+      "height" : "16",
+      "use_border" : "0"
+    },
+    {
+      "x" : "0.16570314306023035086857219054764798397",
+      "type" : "canvas",
+      "y" : "-18.4427603197130672323631374136697924264",
+      "class" : "CollectionImage",
+      "width" : "20",
+      "height" : "16",
+      "use_border" : "0"
+    },
+    {
+      "x" : "22.6184790277214428935601040097539500175",
+      "type" : "canvas",
+      "y" : "0",
+      "class" : "CollectionImage",
+      "width" : "20",
+      "height" : "16",
+      "use_border" : "0"
+    },
+    {
+      "x" : "22.7013305992515580689943901050277755149",
+      "type" : "canvas",
+      "y" : "-18.4427603197130672323631374136697924264",
+      "class" : "CollectionImage",
+      "width" : "20",
+      "height" : "16",
+      "use_border" : "0"
+    }
+  ],
+  "name" : "DA - Express Yourself",
+  "order" : "0",
+  "type" : "collection",
+  "price3Description" : "Acrylic",
+  "show" : "1",
+  "priceDescription" : "Canvas",
+  "free" : "YES",
+  "price2Description" : "Metal",
+  "groupName" : "com.chrisandadriennescott.preveal.dacollectiononenew",
+  "price" : "0.00",
+  "price3" : " ",
+  "in_app_price" : "0",
+  "isFavorite" : "0",
+  "purchased" : "NO",
+  "description" : "Express Yourself Collection from Design Aglow Inspire Guide: Collection 1",
+  "price2" : " ",
+  "file_name" : "DA1-ExpressYourself.txt"
+}
