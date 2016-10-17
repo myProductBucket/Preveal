@@ -1,0 +1,30 @@
+{
+    "file_name": "12x8.txt",
+    "name": "8x12",
+    "description": "A single 8x12 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 20,
+    "show" : "1",
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "groupName" : "singles",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "width": "8",
+            "height": "12",
+            "x": "0",
+            "y": "0",
+            "type": "canvas",
+        }
+    ]
+}

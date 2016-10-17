@@ -1,0 +1,30 @@
+{
+    "file_name": "45x30.txt",
+    "name": "30x45",
+    "description": "A single 30x45 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 230,
+    "show" : "1",
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "groupName" : "singles",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "width": "30",
+            "height": "45",
+            "x": "0",
+            "y": "0",
+            "type": "canvas",
+        }
+    ]
+}

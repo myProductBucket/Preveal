@@ -1,0 +1,35 @@
+{
+    "file_name": "12x12Framed.txt",
+    "name": "Framed 12x12",
+    "description": "A single framed 12x12 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 350,
+    "show" : "1",
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "groupName" : "singlesFramed",
+    "layout":[
+        {
+            "class": "CollectionFramedImage",
+            "width": "12",
+            "height": "12",
+            "x": "3",
+            "y": "3",
+            "frameWidth": "18",
+            "frameHeight": "18",
+            "frameX": "0",
+            "frameY": "0",
+            "frameImageName": "frame-12x12.png",
+            "type": "frame"
+        }
+    ]
+}

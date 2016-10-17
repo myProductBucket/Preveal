@@ -1,0 +1,31 @@
+{
+    "file_name": "0020.txt",
+    "name": "Framed 30x40",
+    "description": "A single framed 30x40 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 500,
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "singles",
+    "layout":[
+        {
+            "class": "CollectionFramedImage",
+            "width": "30",
+            "height": "40",
+            "x": "3",
+            "y": "3",
+            "frameWidth": "36",
+            "frameHeight": "46",
+            "frameX": "0",
+            "frameY": "0",
+            "frameImageName": "frame-40x30.png",
+            "type": "frame",
+        }
+    ],
+}

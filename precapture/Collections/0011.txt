@@ -1,0 +1,26 @@
+{
+    "file_name": "0011.txt",
+    "name": "16x20",
+    "description": "A single 16x20 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 110,
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "singles",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "width": "16",
+            "height": "20",
+            "x": "0",
+            "y": "0",
+            "type": "canvas",
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "file_name": "BP_Stairclimber.txt",
+    "name": "Bay Photo - Stairclimber",
+    "description": "A Bay Photo Original Collection",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 0,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "bayphoto",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "20.0",
+            "width": "16",
+            "height": "20",
+            "type": "canvas"
+        },              
+{
+            "class": "CollectionImage",
+            "x" : "17.0",
+            "y" : "4.0",
+            "width": "32",
+            "height": "20",
+            "type": "canvas"
+        },             
+{
+            "class": "CollectionImage",
+            "x" : "17.0",
+            "y" : "25.0",
+            "width": "10",
+            "height": "10",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "28.0",
+            "y" : "25.0",
+            "width": "10",
+            "height": "10",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "39.0",
+            "y" : "25.0",
+            "width": "10",
+            "height": "10",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "50.0",
+            "y" : "0.0",
+            "width": "16",
+            "height": "20",
+            "type": "canvas"
+        },            
+       ],
+}

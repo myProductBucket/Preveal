@@ -1,0 +1,78 @@
+{
+    "file_name": "DA_TwoForTea.txt",
+    "name": "Two for Tea",
+    "description": "A Premium Template from Design Aglow",
+    "purchased": "NO",
+    "free": "NO",
+    "order": "20",
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "initialRotation" : 0.0,
+    "groupName" : "com.chrisandadriennescott.preveal.inspireguide.canvas",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "12",
+            "height": "16",
+            "type": "canvas"
+        },  
+        {
+            "class": "CollectionImage",
+            "x" : "12.0",
+            "y" : "0.0",
+            "width": "24",
+            "height": "16",
+            "type": "canvas"
+        },          
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "16.0",
+            "width": "12",
+            "height": "8",
+            "type": "canvas"
+        },    
+{
+            "class": "CollectionImage",
+            "x" : "12.0",
+            "y" : "16.0",
+            "width": "12",
+            "height": "8",
+            "type": "canvas"
+        }, 
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "24.0",
+            "width": "12",
+            "height": "8",
+            "type": "canvas"
+        }, 
+{
+            "class": "CollectionImage",
+            "x" : "12.0",
+            "y" : "24.0",
+            "width": "12",
+            "height": "8",
+            "type": "canvas"
+        }, 
+        {
+            "class": "CollectionImage",
+            "x" : "24.0",
+            "y" : "16.0",
+            "width": "12",
+            "height": "16",
+            "type": "canvas"
+        }, 
+       ],
+}

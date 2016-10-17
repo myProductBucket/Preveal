@@ -1,0 +1,54 @@
+//
+// Prefix header for all source files of the 'precapture' target in the 'precapture' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <Smooch/Smooch.h>
+    #import "NSString+Utility.h"
+    #import "AppDelegate.h"
+    #import "MIBadgeButton.h"
+    #import "UIImage+FixOrientation.h"
+    #import <DropboxSDK/DropboxSDK.h>
+
+#define SMOOCH_TOKEN @"dc5n56a313worbo7yar3nif6i"
+
+#define DISPLAY_NAME @"displayName"
+#define STUDIO_URL @"studioUrl"
+#define STUDIO_NAME @"studioName"
+#define COMMUNITY_PASSWORD @"communityPassword"
+#define COMMUNITY_USERNAME @"communityUserName"
+
+#define BADGE_NUMBER @"badge number"
+
+#define EMAIL_SUCCESS @"Message sent successfully..."
+
+#define RESET_EMAIL @"reset email"
+
+//Getdrip
+#define GETDRIPAPI_ENDPOINT @"https://api.getdrip.com/v2/"
+#define GETDRIP_CLIENTID @"84d881b178b3e02d5afb463c9e4d60b271a93fef06e599dfee65c51a599d0c80"
+#define GETDRIP_CLIENTSECRET @"2750a207e944cf9dbef6c72f220db00d68dbb69fed0bc7e20dd5cefc4dfdae0d"
+#define GETDRIP_APITOKEN @"cumxhab1iozqvrabbwvx"
+#define GETDRIP_ACCOUNTID @"5039053"
+
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+
+#define GETDRIP_TAG @"prevealCommunity"
+
+#define THUMBNAIL_SIZE @"l" //xs, s, m, l, xl
+
+#define DROPBOX_RECONNECT @"Yes"
+
+#endif

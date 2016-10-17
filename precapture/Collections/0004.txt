@@ -1,0 +1,50 @@
+{
+    "file_name": "0004.txt",
+    "name": "The Contemporary Collection",
+    "description": "With a total size of 50x34, this collection is a great way to show off your favorite images in a clean, stylish fashion.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 4,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "preveal",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "24",
+            "height": "16",
+            "type": "canvas",
+        },      
+        {
+            "class": "CollectionImage",
+            "x" : "26.0",
+            "y" : "0.0",
+            "width": "24",
+            "height": "16",
+            "type": "canvas"
+        },
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "18.0",
+            "width": "24",
+            "height": "16",
+            "type": "canvas"
+        },
+        {
+            "class": "CollectionImage",
+            "x" : "26.0",
+            "y" : "18.0",
+            "width": "24",
+            "height": "16",
+            "type": "canvas"
+        }
+    ],
+}

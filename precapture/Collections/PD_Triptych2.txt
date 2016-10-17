@@ -1,0 +1,42 @@
+{
+    "file_name": "PD_Triptych2.txt",
+    "name": "ProDPI - Triptych 2",
+    "description": "A ProDPI Collection",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 0,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "prodpi",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "5.0",
+            "width": "16",
+            "height": "20",
+            "type": "canvas"
+        },            
+        {
+            "class": "CollectionImage",
+            "x" : "17.0",
+            "y" : "0.0",
+            "width": "20",
+            "height": "30",
+            "type": "canvas"
+        },            
+        {
+            "class": "CollectionImage",
+            "x" : "38.0",
+            "y" : "5.0",
+            "width": "16",
+            "height": "20",
+            "type": "canvas"
+        },          
+         ],
+}

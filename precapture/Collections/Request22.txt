@@ -1,0 +1,55 @@
+{
+    "file_name": "Request22.txt",
+    "name": "Requested Template 22",
+    "description": "A Requested Template",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 220,
+    "show" : "1",
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : "0.00",
+    "price3" : "0.00",
+    "price4" : "0.00",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "groupName" : "preveal",
+    "initialRotation" : 0.0,
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "24",
+            "height": "16",
+            "type": "canvas"
+        },  
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "16.0",
+            "width": "8",
+            "height": "10",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "8.0",
+            "y" : "16.0",
+            "width": "8",
+            "height": "10",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "16.0",
+            "y" : "16.0",
+            "width": "8",
+            "height": "10",
+            "type": "canvas"
+        },            
+       ],
+}

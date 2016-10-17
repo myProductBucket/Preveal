@@ -1,0 +1,26 @@
+{
+    "file_name": "0015.txt",
+    "name": "30x40",
+    "description": "A single 30x40 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 220,
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "singles",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "width": "30",
+            "height": "40",
+            "x": "0",
+            "y": "0",
+            "type": "canvas",
+        }
+    ]
+}

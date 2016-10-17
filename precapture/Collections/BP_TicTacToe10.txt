@@ -1,0 +1,86 @@
+{
+    "file_name": "BP_TicTacToe10.txt",
+    "name": "Bay Photo - Tic Tac Toe 10x10",
+    "description": "A Bay Photo Original Collection",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 0,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "groupName" : "bayphoto",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "10",
+            "height": "10",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "11.0",
+            "y" : "0.0",
+            "width": "10",
+            "height": "10",
+            "type": "canvas"
+        },         
+{
+            "class": "CollectionImage",
+            "x" : "22.0",
+            "y" : "0.0",
+            "width": "10",
+            "height": "10",
+            "type": "canvas"
+        },          
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "11.0",
+            "width": "10",
+            "height": "10",
+            "type": "canvas"
+        },         
+{
+            "class": "CollectionImage",
+            "x" : "11.0",
+            "y" : "11.0",
+            "width": "10",
+            "height": "10",
+            "type": "canvas"
+        },         
+{
+            "class": "CollectionImage",
+            "x" : "22.0",
+            "y" : "11.0",
+            "width": "10",
+            "height": "10",
+            "type": "canvas"
+        },          
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "22.0",
+            "width": "10",
+            "height": "10",
+            "type": "canvas"
+        },       
+{
+            "class": "CollectionImage",
+            "x" : "11.0",
+            "y" : "22.0",
+            "width": "10",
+            "height": "10",
+            "type": "canvas"
+        },         
+{
+            "class": "CollectionImage",
+            "x" : "22.0",
+            "y" : "22.0",
+            "width": "10",
+            "height": "10",
+            "type": "canvas"
+        },                       
+       ],
+}

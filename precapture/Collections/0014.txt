@@ -1,0 +1,26 @@
+{
+    "file_name": "0014.txt",
+    "name": "24x36",
+    "description": "A single 24x36 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 200,
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "singles",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "width": "24",
+            "height": "36",
+            "x": "0",
+            "y": "0",
+            "type": "canvas",
+        }
+    ]
+}

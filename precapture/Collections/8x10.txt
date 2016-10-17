@@ -1,0 +1,29 @@
+{
+    "file_name": "8x10.txt",
+    "name": "8x10",
+    "description": "A Single 8x10 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 10,
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "groupName" : "singles",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x": "0",
+            "y": "0",
+            "width": "8",
+            "height": "10",
+            "type": "canvas"
+        },            
+       ],
+}

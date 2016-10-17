@@ -1,0 +1,90 @@
+{
+    "file_name": "BP_TicTacToe6.txt",
+    "name": "Bay Photo - Tic Tac Toe 6x6",
+    "description": "A Bay Photo Original Collection",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 0,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "bayphoto",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "6",
+            "height": "6",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "7.0",
+            "y" : "0.0",
+            "width": "6",
+            "height": "6",
+            "type": "canvas"
+        },         
+{
+            "class": "CollectionImage",
+            "x" : "14.0",
+            "y" : "0.0",
+            "width": "6",
+            "height": "6",
+            "type": "canvas"
+        },          
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "7.0",
+            "width": "6",
+            "height": "6",
+            "type": "canvas"
+        },         
+{
+            "class": "CollectionImage",
+            "x" : "7.0",
+            "y" : "7.0",
+            "width": "6",
+            "height": "6",
+            "type": "canvas"
+        },         
+{
+            "class": "CollectionImage",
+            "x" : "14.0",
+            "y" : "7.0",
+            "width": "6",
+            "height": "6",
+            "type": "canvas"
+        },          
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "14.0",
+            "width": "6",
+            "height": "6",
+            "type": "canvas"
+        },       
+{
+            "class": "CollectionImage",
+            "x" : "7.0",
+            "y" : "14.0",
+            "width": "6",
+            "height": "6",
+            "type": "canvas"
+        },         
+{
+            "class": "CollectionImage",
+            "x" : "14.0",
+            "y" : "14.0",
+            "width": "6",
+            "height": "6",
+            "type": "canvas"
+        },                       
+       ],
+}

@@ -1,0 +1,47 @@
+{
+    "file_name": "Request10.txt",
+    "name": "Requested Template 10",
+    "description": "A Requested Template",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 100,
+    "show" : "1",
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : "0.00",
+    "price3" : "0.00",
+    "price4" : "0.00",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "groupName" : "preveal",
+    "initialRotation" : 0.0,
+    "layout":[
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "4.0",
+            "width": "24",
+            "height": "16",
+            "type": "canvas"
+        },  
+{
+            "class": "CollectionImage",
+            "x" : "26.0",
+            "y" : "0.0",
+            "width": "36",
+            "height": "24",
+            "type": "canvas"
+        },  
+{
+            "class": "CollectionImage",
+            "x" : "64.0",
+            "y" : "4.0",
+            "width": "24",
+            "height": "16",
+            "type": "canvas"
+        },  
+       ],
+}

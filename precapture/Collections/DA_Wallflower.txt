@@ -1,0 +1,126 @@
+{
+    "file_name": "DA_Wallflower.txt",
+    "name": "Wallflower",
+    "description": "A Premium Template from Design Aglow",
+    "purchased": "NO",
+    "free": "NO",
+    "order": "40",
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "initialRotation" : 0.0,
+    "groupName" : "com.chrisandadriennescott.preveal.inspireguide.canvas",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "12",
+            "height": "12",
+            "type": "canvas"
+        },  
+        {
+            "class": "CollectionImage",
+            "x" : "12.0",
+            "y" : "0.0",
+            "width": "12",
+            "height": "12",
+            "type": "canvas"
+        },
+{
+            "class": "CollectionImage",
+            "x" : "24.0",
+            "y" : "0.0",
+            "width": "12",
+            "height": "12",
+            "type": "canvas"
+        },  
+{
+            "class": "CollectionImage",
+            "x" : "36.0",
+            "y" : "0.0",
+            "width": "12",
+            "height": "12",
+            "type": "canvas"
+        },
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "12.0",
+            "width": "12",
+            "height": "12",
+            "type": "canvas"
+        },
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "24.0",
+            "width": "12",
+            "height": "12",
+            "type": "canvas"
+        },
+{
+            "class": "CollectionImage",
+            "x" : "12.0",
+            "y" : "12.0",
+            "width": "24",
+            "height": "24",
+            "type": "canvas"
+        },
+{
+            "class": "CollectionImage",
+            "x" : "36.0",
+            "y" : "12.0",
+            "width": "12",
+            "height": "12",
+            "type": "canvas"
+        },
+{
+            "class": "CollectionImage",
+            "x" : "36.0",
+            "y" : "24.0",
+            "width": "12",
+            "height": "12",
+            "type": "canvas"
+        },
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "36.0",
+            "width": "12",
+            "height": "12",
+            "type": "canvas"
+        },
+{
+            "class": "CollectionImage",
+            "x" : "12.0",
+            "y" : "36.0",
+            "width": "12",
+            "height": "12",
+            "type": "canvas"
+        },
+{
+            "class": "CollectionImage",
+            "x" : "24.0",
+            "y" : "36.0",
+            "width": "12",
+            "height": "12",
+            "type": "canvas"
+        },
+{
+            "class": "CollectionImage",
+            "x" : "36.0",
+            "y" : "36.0",
+            "width": "12",
+            "height": "12",
+            "type": "canvas"
+        },
+       ],
+}

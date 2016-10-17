@@ -1,0 +1,79 @@
+{
+    "file_name": "Request8.txt",
+    "name": "Requested Template 8",
+    "description": "A Requested Template",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 80,
+    "show" : "1",
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : "0.00",
+    "price3" : "0.00",
+    "price4" : "0.00",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "groupName" : "preveal",
+    "initialRotation" : 0.0,
+    "layout":[
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "2.0",
+            "width": "11",
+            "height": "14",
+            "type": "canvas"
+        },  
+{
+            "class": "CollectionImage",
+            "x" : "13.0",
+            "y" : "0.0",
+            "width": "10",
+            "height": "8",
+            "type": "canvas"
+        },  
+{
+            "class": "CollectionImage",
+            "x" : "13.0",
+            "y" : "10.0",
+            "width": "10",
+            "height": "8",
+            "type": "canvas"
+        },  
+{
+            "class": "CollectionImage",
+            "x" : "25.0",
+            "y" : "1.0",
+            "width": "24",
+            "height": "16",
+            "type": "canvas"
+        },  
+{
+            "class": "CollectionImage",
+            "x" : "51.0",
+            "y" : "0.0",
+            "width": "10",
+            "height": "8",
+            "type": "canvas"
+        },  
+{
+            "class": "CollectionImage",
+            "x" : "51.0",
+            "y" : "10.0",
+            "width": "10",
+            "height": "8",
+            "type": "canvas"
+        },  
+{
+            "class": "CollectionImage",
+            "x" : "63.0",
+            "y" : "2.0",
+            "width": "11",
+            "height": "14",
+            "type": "canvas"
+        },  
+       ],
+}

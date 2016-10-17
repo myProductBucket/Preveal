@@ -1,0 +1,51 @@
+{
+  "price4" : " ",
+  "initialRotation" : "0",
+  "price4Description" : "Standout",
+  "layout" : [
+    {
+      "x" : "0",
+      "type" : "canvas",
+      "y" : "0",
+      "class" : "CollectionImage",
+      "width" : "20",
+      "height" : "24",
+      "use_border" : "0"
+    },
+    {
+      "x" : "22.9441363601045870342162075194814302639",
+      "type" : "canvas",
+      "y" : "0",
+      "class" : "CollectionImage",
+      "width" : "20",
+      "height" : "24",
+      "use_border" : "0"
+    },
+    {
+      "x" : "46.055139166464480155953987457286364913",
+      "type" : "canvas",
+      "y" : "0",
+      "class" : "CollectionImage",
+      "width" : "20",
+      "height" : "24",
+      "use_border" : "0"
+    }
+  ],
+  "name" : "Look at Me, Baby!",
+  "order" : "0",
+  "type" : "collection",
+  "price3Description" : "Acrylic",
+  "show" : "1",
+  "priceDescription" : "Canvas",
+  "free" : "YES",
+  "price2Description" : "Metal",
+  "groupName" : "com.chrisandadriennescott.preveal.dacollectiononenew",
+  "price" : "0.00",
+  "price3" : " ",
+  "in_app_price" : "0",
+  "isFavorite" : "0",
+  "purchased" : "NO",
+  "description" : "Look at Me, Baby! Collection from the Design Aglow Inspire Guide: Collection 1.",
+  "price2" : " ",
+  "file_name" : "DA1-LookAtMeBaby.txt"
+}

@@ -1,0 +1,30 @@
+{
+    "file_name": "40x40.txt",
+    "name": "40x40",
+    "description": "A single 40x40 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 251,
+    "show" : "1",
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "groupName" : "singles",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "width": "40",
+            "height": "40",
+            "x": "0",
+            "y": "0",
+            "type": "canvas",
+        }
+    ]
+}

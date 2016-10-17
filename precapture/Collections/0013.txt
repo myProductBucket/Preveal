@@ -1,0 +1,26 @@
+{
+    "file_name": "0013.txt",
+    "name": "20x30",
+    "description": "A single 20x30 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 160,
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "singles",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "width": "20",
+            "height": "30",
+            "x": "0",
+            "y": "0",
+            "type": "canvas",
+        }
+    ]
+}

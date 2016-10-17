@@ -1,0 +1,31 @@
+{
+    "file_name": "0017.txt",
+    "name": "Framed 16x24",
+    "description": "A single framed 16x24 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 400,
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "singles",
+    "layout":[
+        {
+            "class": "CollectionFramedImage",
+            "width": "16",
+            "height": "24",
+            "x": "3",
+            "y": "3",
+            "frameWidth": "22",
+            "frameHeight": "30",
+            "frameX": "0",
+            "frameY": "0",
+            "frameImageName": "frame-24x16.png",
+            "type": "frame",
+        }
+    ],
+}

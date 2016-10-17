@@ -1,0 +1,26 @@
+{
+    "file_name": "0007.txt",
+    "name": "15x60",
+    "description": "A single 15x60 image.",
+    "purchased": "NO",
+    "free": "NO",
+    "order": 370,
+    "type": "single",
+    "in_app_price": "0.99",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "singles",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "width": "15",
+            "height": "60",
+            "x": "0",
+            "y": "0",
+            "type": "canvas",
+        }
+    ],
+}

@@ -1,0 +1,74 @@
+{
+    "file_name": "BP_Flagstone.txt",
+    "name": "Bay Photo - Flagstone",
+    "description": "A Bay Photo Original Collection",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 0,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "bayphoto",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "11.0",
+            "y" : "0.0",
+            "width": "12",
+            "height": "8",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "20.0",
+            "y" : "9.0",
+            "width": "10",
+            "height": "8",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "20.0",
+            "y" : "18.0",
+            "width": "8",
+            "height": "8",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "7.0",
+            "y" : "22.0",
+            "width": "12",
+            "height": "8",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "13.0",
+            "width": "10",
+            "height": "8",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "2.0",
+            "y" : "4.0",
+            "width": "8",
+            "height": "8",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "11.0",
+            "y" : "9.0",
+            "width": "8",
+            "height": "12",
+            "type": "canvas"
+        },            
+       ],
+}

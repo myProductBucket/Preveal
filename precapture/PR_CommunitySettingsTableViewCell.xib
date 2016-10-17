@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="communitySettingsCell" rowHeight="1152" id="KGk-i7-Jjw" customClass="PR_CommunitySettingsTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="331" height="411"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="331" height="410"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="email address" minimumFontSize="17" id="vTB-MV-qQc" userLabel="Email - Field">
+                        <rect key="frame" x="89" y="54" width="172" height="38"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="field-tray-email.png" id="CMd-Ux-GH1" userLabel="Email - Field Image">
+                        <rect key="frame" x="39" y="55" width="226" height="37"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" minimumFontSize="17" id="06x-qW-NvU" userLabel="Password - Field">
+                        <rect key="frame" x="89" y="100" width="172" height="38"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="field-tray-pass.png" id="Kw2-Nl-3ju" userLabel="password - Field Image">
+                        <rect key="frame" x="39" y="101" width="226" height="37"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password (again)" minimumFontSize="17" id="tQF-9d-0Tr" userLabel="Password Two - Field">
+                        <rect key="frame" x="89" y="146" width="172" height="38"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="field-tray-pass.png" id="0oC-Jm-6rJ" userLabel="Password Two - Field Image">
+                        <rect key="frame" x="39" y="146" width="226" height="37"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="name" minimumFontSize="17" id="Mqg-u8-BrB" userLabel="Name - Field">
+                        <rect key="frame" x="89" y="192" width="172" height="38"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="field-tray-name.png" id="TQh-nG-7PQ" userLabel="Name - Field Image">
+                        <rect key="frame" x="39" y="193" width="226" height="37"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="studio name" minimumFontSize="17" id="ocl-vm-pdb" userLabel="Studio Name - Field">
+                        <rect key="frame" x="89" y="238" width="172" height="38"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="field-tray-studio.png" id="WDX-FO-v8x" userLabel="Studio Name - Field Image">
+                        <rect key="frame" x="39" y="239" width="226" height="37"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="url" minimumFontSize="17" id="Ccj-1O-fxA" userLabel="URL - Field">
+                        <rect key="frame" x="89" y="284" width="172" height="38"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="field-tray-url.png" id="uuU-HH-sLD" userLabel="URL - Field Image">
+                        <rect key="frame" x="39" y="285" width="226" height="37"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="I0M-xN-ujG">
+                        <rect key="frame" x="39" y="330" width="167" height="46"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <string key="text">Automatically upload new 
+templates to the community?</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="aVF-v4-Riz">
+                        <rect key="frame" x="227" y="337" width="51" height="31"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </switch>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cOV-v1-8fg">
+                        <rect key="frame" x="210" y="376" width="75" height="20"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" image="btn-tray-save-launch.png">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btn-tray-settings-community-off.png" highlightedImage="btn-tray-settings-community-on.png" id="7QU-dY-Rqs">
+                        <rect key="frame" x="0.0" y="0.0" width="307" height="44"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="0.42352941179999998" green="0.56470588239999997" blue="0.67450980390000004" alpha="1" colorSpace="calibratedRGB"/>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.42352941176470588" green="0.56470588235294117" blue="0.67450980392156867" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="autoUploadToCommunitySwitch" destination="aVF-v4-Riz" id="jyh-hU-SzP"/>
+                <outlet property="email" destination="vTB-MV-qQc" id="uGB-zs-nsc"/>
+                <outlet property="headerImageView" destination="7QU-dY-Rqs" id="kgU-Ub-If8"/>
+                <outlet property="name" destination="Mqg-u8-BrB" id="Tc0-53-wo2"/>
+                <outlet property="password" destination="06x-qW-NvU" id="mMf-uH-nek"/>
+                <outlet property="passwordVerification" destination="tQF-9d-0Tr" id="WQP-Ek-G8p"/>
+                <outlet property="saveButton" destination="cOV-v1-8fg" id="jgH-aw-uJr"/>
+                <outlet property="studioName" destination="ocl-vm-pdb" id="Ya3-xP-gbI"/>
+                <outlet property="studioURL" destination="Ccj-1O-fxA" id="6oc-Fr-bMD"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="btn-tray-save-launch.png" width="955" height="567"/>
+        <image name="btn-tray-settings-community-off.png" width="614" height="90"/>
+        <image name="btn-tray-settings-community-on.png" width="614" height="90"/>
+        <image name="field-tray-email.png" width="468" height="74"/>
+        <image name="field-tray-name.png" width="468" height="74"/>
+        <image name="field-tray-pass.png" width="468" height="74"/>
+        <image name="field-tray-studio.png" width="468" height="74"/>
+        <image name="field-tray-url.png" width="468" height="74"/>
+    </resources>
+</document>

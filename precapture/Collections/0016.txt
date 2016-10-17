@@ -1,0 +1,31 @@
+{
+    "file_name": "0016.txt",
+    "name": "Framed 16x20",
+    "description": "A single framed 16x20 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 390,
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "singles",
+    "layout":[
+        {
+            "class": "CollectionFramedImage",
+            "width": "16",
+            "height": "20",
+            "x": "3",
+            "y": "3",
+            "frameWidth": "22",
+            "frameHeight": "26",
+            "frameX": "0",
+            "frameY": "0",
+            "frameImageName": "frame-20x16.png",
+            "type": "frame"
+        }
+    ]
+}

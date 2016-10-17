@@ -1,0 +1,42 @@
+{
+    "file_name": "PD_Bundle2.txt",
+    "name": "ProDPI - Bundle 2",
+    "description": "A ProDPI Collection",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 0,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "prodpi",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "16",
+            "height": "24",
+            "type": "canvas"
+        },            
+        {
+            "class": "CollectionImage",
+            "x" : "18.0",
+            "y" : "0.0",
+            "width": "11",
+            "height": "14",
+            "type": "canvas"
+        },            
+        {
+            "class": "CollectionImage",
+            "x" : "18.0",
+            "y" : "16.0",
+            "width": "10",
+            "height": "8",
+            "type": "canvas"
+        },          
+       ],
+}

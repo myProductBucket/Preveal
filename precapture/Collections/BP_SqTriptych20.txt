@@ -1,0 +1,42 @@
+{
+    "file_name": "BP_SqTriptych20.txt",
+    "name": "Bay Photo - Square Triptych 20x20",
+    "description": "A Bay Photo Original Collection",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 0,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "bayphoto",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "20",
+            "height": "20",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "21.0",
+            "y" : "0.0",
+            "width": "20",
+            "height": "20",
+            "type": "canvas"
+        },         
+{
+            "class": "CollectionImage",
+            "x" : "42.0",
+            "y" : "0.0",
+            "width": "20",
+            "height": "20",
+            "type": "canvas"
+        },          
+       ],
+}

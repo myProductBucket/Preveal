@@ -1,0 +1,87 @@
+{
+    "file_name": "Request3.txt",
+    "name": "Requested Template 3",
+    "description": "A Requested Template",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 30,
+    "show" : "1",
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : "0.00",
+    "price3" : "0.00",
+    "price4" : "0.00",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "groupName" : "preveal",
+    "initialRotation" : 0.0,
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "14",
+            "height": "11",
+            "type": "canvas"
+        },  
+        {
+            "class": "CollectionImage",
+            "x" : "16.0",
+            "y" : "0.0",
+            "width": "11",
+            "height": "14",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "13.0",
+            "width": "11",
+            "height": "14",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "13.0",
+            "y" : "16.0",
+            "width": "14",
+            "height": "11",
+            "type": "canvas"
+        },         
+{
+            "class": "CollectionImage",
+            "x" : "29.0",
+            "y" : "0.0",
+            "width": "14",
+            "height": "11",
+            "type": "canvas"
+        },               
+{
+            "class": "CollectionImage",
+            "x" : "29.0",
+            "y" : "13.0",
+            "width": "11",
+            "height": "14",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "45.0",
+            "y" : "0.0",
+            "width": "11",
+            "height": "14",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "42.0",
+            "y" : "16.0",
+            "width": "14",
+            "height": "11",
+            "type": "canvas"
+        },            
+       ],
+}

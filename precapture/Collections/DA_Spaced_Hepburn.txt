@@ -1,0 +1,95 @@
+{
+    "file_name": "DA_Spaced_Hepburn.txt",
+    "name": "Hepburn - Spaced",
+    "description": "A Premium Template from Design Aglow",
+    "purchased": "NO",
+    "free": "NO",
+    "show" : "1",
+    "order": "400",
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "initialRotation" : 0.0,
+    "groupName" : "com.chrisandadriennescott.preveal.inspireguide.canvas",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "20",
+            "height": "20",
+            "type": "canvas"
+        }, 
+{
+            "class": "CollectionImage",
+            "x" : "22.0",
+            "y" : "0.0",
+            "width": "20",
+            "height": "20",
+            "type": "canvas"
+        }, 
+{
+            "class": "CollectionImage",
+            "x" : "44.0",
+            "y" : "0.0",
+            "width": "20",
+            "height": "20",
+            "type": "canvas"
+        }, 
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "22.0",
+            "width": "20",
+            "height": "20",
+            "type": "canvas"
+        }, 
+{
+            "class": "CollectionImage",
+            "x" : "22.0",
+            "y" : "22.0",
+            "width": "20",
+            "height": "20",
+            "type": "canvas"
+        }, 
+{
+            "class": "CollectionImage",
+            "x" : "44.0",
+            "y" : "22.0",
+            "width": "20",
+            "height": "20",
+            "type": "canvas"
+        }, 
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "44.0",
+            "width": "20",
+            "height": "20",
+            "type": "canvas"
+        }, 
+{
+            "class": "CollectionImage",
+            "x" : "22.0",
+            "y" : "44.0",
+            "width": "20",
+            "height": "20",
+            "type": "canvas"
+        }, 
+{
+            "class": "CollectionImage",
+            "x" : "44.0",
+            "y" : "44.0",
+            "width": "20",
+            "height": "20",
+            "type": "canvas"
+        }, 
+       ],
+}

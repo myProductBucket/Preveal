@@ -1,0 +1,74 @@
+{
+    "file_name": "BP_Filmstrip.txt",
+    "name": "Bay Photo - Filmstrip",
+    "description": "A Bay Photo Original Collection",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 0,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "bayphoto",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "8",
+            "height": "8",
+            "type": "canvas"
+        },              
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "9.0",
+            "width": "8",
+            "height": "8",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "18.0",
+            "width": "8",
+            "height": "8",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "9.0",
+            "y" : "0.0",
+            "width": "26",
+            "height": "26",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "36.0",
+            "y" : "0.0",
+            "width": "8",
+            "height": "8",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "36.0",
+            "y" : "9.0",
+            "width": "8",
+            "height": "8",
+            "type": "canvas"
+        },            
+{
+            "class": "CollectionImage",
+            "x" : "36.0",
+            "y" : "18.0",
+            "width": "8",
+            "height": "8",
+            "type": "canvas"
+        },            
+       ],
+}

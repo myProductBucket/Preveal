@@ -1,0 +1,13 @@
+PODS:
+  - IQKeyboardManager (3.3.7)
+  - Smooch (3.5.4)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - Smooch
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  Smooch: 08825fba1337d81031cd8d7ed578e7641cdb7a89
+
+COCOAPODS: 0.39.0

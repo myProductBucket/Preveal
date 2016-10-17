@@ -1,0 +1,58 @@
+{
+    "file_name": "BP_Parquet.txt",
+    "name": "Bay Photo - Parquet",
+    "description": "A Bay Photo Original Collection",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 0,
+    "type": "collection",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "show" : "1",
+    "acrylicPrice" : " ",
+    "metalPrice" : " ",
+    "standoutPrice" : " ",
+    "groupName" : "bayphoto",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "0.0",
+            "width": "10",
+            "height": "31",
+            "type": "canvas"
+        },            
+        {
+            "class": "CollectionImage",
+            "x" : "11.0",
+            "y" : "0.0",
+            "width": "31",
+            "height": "10",
+            "type": "canvas"
+        },            
+        {
+            "class": "CollectionImage",
+            "x" : "11.0",
+            "y" : "11.0",
+            "width": "20",
+            "height": "20",
+            "type": "canvas"
+        },            
+        {
+            "class": "CollectionImage",
+            "x" : "32.0",
+            "y" : "11.0",
+            "width": "10",
+            "height": "31",
+            "type": "canvas"
+        },            
+        {
+            "class": "CollectionImage",
+            "x" : "0.0",
+            "y" : "32.0",
+            "width": "31",
+            "height": "10",
+            "type": "canvas"
+        }
+    ]
+}

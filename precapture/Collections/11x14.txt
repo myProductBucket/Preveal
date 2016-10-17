@@ -1,0 +1,29 @@
+{
+    "file_name": "11x14.txt",
+    "name": "11x14",
+    "description": "A Single 11x14 image.",
+    "purchased": "NO",
+    "free": "YES",
+    "order": 50,
+    "type": "single",
+    "in_app_price": "0.00",
+    "price" : "0.00",
+    "price2" : " ",
+    "price3" : " ",
+    "price4" : " ",
+    "priceDescription" : "Canvas",
+    "price2Description" : "Metal",
+    "price3Description" : "Acrylic",
+    "price4Description" : "Standout",
+    "groupName" : "singles",
+    "layout":[
+        {
+            "class": "CollectionImage",
+            "x": "0",
+            "y": "0",
+            "width": "11",
+            "height": "14",
+            "type": "canvas"
+        },            
+       ],
+}
